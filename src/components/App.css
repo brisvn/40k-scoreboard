@@ -1,0 +1,25 @@
+.LeftPlayer {
+  width: 200px;
+  height: 1092px;
+  background-color: rgb(73, 74, 75);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.RightPlayer {
+  width: 200px;
+  height: 1092px;
+  background-color: rgb(73, 74, 75);
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.ControlPanel {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
