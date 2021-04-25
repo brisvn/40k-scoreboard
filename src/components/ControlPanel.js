@@ -120,7 +120,7 @@ function ControlPanel(){
                         Enter Mission and Turn
                         <form>
                             <TextField id="misson-id" label = "Mission" onChange={handleMission} />
-                            <TextField id="misson-id" label = "Turn" onChange={handleTurn} />
+                            <TextField id="turn-id" label = "Turn" onChange={handleTurn} />
                         </form>
                     </Paper>
                 </Grid>

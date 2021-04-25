@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
     padding: '3px',
     border: '3px solid ',
     textAlign: 'center',
+    
   },
 
   outerPaper:{
@@ -49,7 +50,7 @@ function LeftPlayer() {
           <Paper className={classes.outerPaper}>
             <Grid container spacing ={1} direction="column">
               <Grid item>
-                <Paper className={classes.innerPaper}>
+                <Paper className={classes.innerPaper} >
                   { globalState.leftName }
                 </Paper>
               </Grid>
@@ -94,25 +95,25 @@ function LeftPlayer() {
                   <Grid container direction="row" spacing = {1}>
                     <Grid item xs = {3}>
                       T2
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                           {globalState.leftPrimary2}
                       </Paper>
                     </Grid>  
                     <Grid item xs = {3}>
                       T3
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                        {globalState.leftPrimary3}
                       </Paper>
                     </Grid>
                     <Grid item xs = {3}>
                       T4
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                         {globalState.leftPrimary4}
                       </Paper>
                     </Grid>
                     <Grid item xs = {3}>
                       T5
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                         {globalState.leftPrimary5}
                       </Paper>
                     </Grid>
@@ -131,7 +132,7 @@ function LeftPlayer() {
                       {globalState.leftSecondary1}
                     </Grid>
                     <Grid item xs = {4}>
-                      <Paper className = {classes.innerPaper}>
+                      <Paper className = {classes.innerPaper} square>
                         {globalState.leftSecondaryVal1}
                       </Paper>
                     </Grid>
@@ -145,7 +146,7 @@ function LeftPlayer() {
                     {globalState.leftSecondary2}
                     </Grid>
                     <Grid item xs = {4}>
-                      <Paper className = {classes.innerPaper}>
+                      <Paper className = {classes.innerPaper} square>
                         {globalState.leftSecondaryVal2}
                       </Paper>
                     </Grid>
@@ -159,7 +160,7 @@ function LeftPlayer() {
                     {globalState.leftSecondary3}
                     </Grid>
                     <Grid item xs = {4}>
-                      <Paper className = {classes.innerPaper}>
+                      <Paper className = {classes.innerPaper} square>
                         {globalState.leftSecondaryVal3}
                       </Paper>
                     </Grid>

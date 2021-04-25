@@ -94,25 +94,25 @@ function RightPlayer() {
                   <Grid container direction="row" spacing = {1}>
                     <Grid item xs = {3}>
                       T2
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                           {globalState.rightPrimary2}
                       </Paper>
                     </Grid>  
                     <Grid item xs = {3}>
                       T3
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                        {globalState.rightPrimary3}
                       </Paper>
                     </Grid>
                     <Grid item xs = {3}>
                       T4
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                         {globalState.rightPrimary4}
                       </Paper>
                     </Grid>
                     <Grid item xs = {3}>
                       T5
-                      <Paper className={classes.innerPaper}>
+                      <Paper className={classes.innerPaper} square>
                         {globalState.rightPrimary5}
                       </Paper>
                     </Grid>
@@ -131,7 +131,7 @@ function RightPlayer() {
                       {globalState.rightSecondary1}
                     </Grid>
                     <Grid item xs = {4}>
-                      <Paper className = {classes.innerPaper}>
+                      <Paper className = {classes.innerPaper} square>
                         {globalState.rightSecondaryVal1}
                       </Paper>
                     </Grid>
@@ -145,7 +145,7 @@ function RightPlayer() {
                     {globalState.rightSecondary2}
                     </Grid>
                     <Grid item xs = {4}>
-                      <Paper className = {classes.innerPaper}>
+                      <Paper className = {classes.innerPaper} square>
                         {globalState.rightSecondaryVal2}
                       </Paper>
                     </Grid>
@@ -159,7 +159,7 @@ function RightPlayer() {
                     {globalState.rightSecondary3}
                     </Grid>
                     <Grid item xs = {4}>
-                      <Paper className = {classes.innerPaper}>
+                      <Paper className = {classes.innerPaper} square>
                         {globalState.rightSecondaryVal3}
                       </Paper>
                     </Grid>
