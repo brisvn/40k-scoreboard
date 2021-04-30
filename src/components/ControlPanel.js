@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   paper:{
     padding: '5px',
     border: '3px solid ',
-    textAlign: 'center',
+    textAlign: 'center', 
   }
 }));
 
@@ -126,7 +126,7 @@ function ControlPanel(){
                 </Grid>
                 <Grid item xs = {6}>
                     <Paper className = {classes.paper}>
-                        Left Player Controls
+                        <p>Left Player Controls</p>
                         <Grid container direction= "row" spacing = {1}>
                             <Grid item xs = {12}>
                                 <Paper className = {classes.paper}>
@@ -302,7 +302,7 @@ function ControlPanel(){
                 </Grid>
                 <Grid item xs = {6}>
                 <Paper className = {classes.paper}>
-                        Right Player Controls
+                        <p>Right Player Controls</p>
                         <Grid container direction= "row" spacing = {1}>
                             <Grid item xs = {12}>
                                 <Paper className = {classes.paper}>
@@ -452,7 +452,7 @@ function ControlPanel(){
                                                         <TextField id="leftname-id" label = "Name" onChange={handleRightSecondary2} />
                                                     </Grid>
                                                     <Grid item xs = {12}>
-                                                        <TextField id="1stsecondarypoints-id" label = "Points" onChange={handleRightSecondaryVal2} />
+                                                        <TextField id="2ndsecondarypoints-id" label = "Points" onChange={handleRightSecondaryVal2} />
                                                     </Grid>
                                                 </Grid>
                                             </Paper>
@@ -465,7 +465,7 @@ function ControlPanel(){
                                                         <TextField id="leftname-id" label = "Name" onChange={handleRightSecondary3} />
                                                     </Grid>
                                                     <Grid item xs = {12}>
-                                                        <TextField id="1stsecondarypoints-id" label = "Points" onChange={handleRightSecondaryVal3} />
+                                                        <TextField id="3rdsecondarypoints-id" label = "Points" onChange={handleRightSecondaryVal3} />
                                                     </Grid>
                                                 </Grid>
                                             </Paper>
